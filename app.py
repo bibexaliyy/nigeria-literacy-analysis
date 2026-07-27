@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 
 st.set_page_config(page_title="Nigeria Literacy analysis", layout="wide")
 
@@ -17,10 +18,6 @@ col1.metric("Latest Male Literacy", f"{latest['Literacy rate, adult male (% of m
 col2.metric("Latest Female Literacy", f"{latest['Literacy rate, adult female (% of females ages 15 and above)']:.1f}%")
 col3.metric("Gender Gap", f"{latest['Literacy rate, adult male (% of males ages 15 and above)'] - latest['Literacy rate, adult female (% of females ages 15 and above)']:.1f} pts")
 group = st.sidebar.radio('Choose group:', ['Adult', 'Youth'])
-fig, ax = plt.subplots()
-fig, ax = plt.subplots()
-import plotly.graph_objects as go
-
 if group == 'Adult':
     female_col = 'Literacy rate, adult female (% of females ages 15 and above)'
     male_col = 'Literacy rate, adult male (% of males ages 15 and above)'
