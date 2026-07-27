@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Nigeria Literacy Rate Analysis (1991–2024)
 
 An interactive data analysis dashboard exploring literacy trends in Nigeria, with a focus on gender and wealth-based disparities. Built as an exploratory tool to surface where literacy gaps are widest — and where interventions might matter most.
@@ -65,7 +64,7 @@ streamlit run app.py
 
 Habiba — [LinkedIn](#) · [GitHub](#)
 
-Built as part of an ongoing effort to combine data analysis skills with civic/education advocacy work in Nigeria.
+Built as part of an ongoing effort to combine data analysis  with civic/education advocacy work in Nigeria.
 =======
 # nigeria-literacy-analysis
->>>>>>> f195a1e419de144ff0f50eefae023319ee698452
+
