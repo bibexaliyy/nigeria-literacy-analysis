@@ -45,4 +45,4 @@ fig2.add_trace(go.Bar(x=wealth_data['Quintile'], y=wealth_data['Literacy Rate (%
 fig2.update_layout(xaxis_title='Wealth Quintile', yaxis_title='Literacy Rate (%)')
 st.plotly_chart(fig2, use_container_width=True)
 
-st.caption("Note: Gender gap (16 pts) is narrower than the wealth gap (72 pts between poorest and richest) — suggesting economic inclusion may matter more than gender alone for literacy outcomes in Nigeria.")
+st.caption("Note: Gender gap (16 pts) is narrower than the wealth gap (72 pts between poorest and richest) suggesting economic inclusion may matter more than gender alone for literacy outcomes in Nigeria.")
